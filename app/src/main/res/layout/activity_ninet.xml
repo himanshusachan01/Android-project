@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".Ninet">
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="338dp"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="109dp"
+        android:ems="10"
+        android:hint="Enter your first no"
+        android:inputType="text"
+        android:textColorHint="#100F0F" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="278dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="201dp"
+        android:ems="10"
+        android:hint="Enter youir second no"
+        android:inputType="text"
+        android:textColorHint="#100F0F" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="322dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="72dp"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="124dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="40dp"
+        android:text="Subtract" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="124dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="222dp"
+        android:text="Multiply" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="118dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="222dp"
+        android:text="Divide" />
+</RelativeLayout>
